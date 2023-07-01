@@ -1,6 +1,7 @@
 import React from 'react';
 import { RxHome, RxGear, RxListBullet } from 'react-icons/rx';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Header = () => {
   return (
@@ -42,7 +43,7 @@ const Header = () => {
                 height={20}
               />
             </div>
-            <span className='hidden md:inline'>ismail ihsan Bulbul</span>
+            <span className='hidden md:inline'><Link href="/login">ismail ihsan Bulbul</Link></span>
           </div>
         </li>
       </ul>
